@@ -17,18 +17,21 @@ Exemplos
 
 Entrada	
 361
+
 Saída
 0 dia(s), 0 hora(s), 6 minuto(s) e 1 segundo(s).
 
 
 Entrada	
 7869
+
 Saída
 0 dia(s), 2 hora(s), 11 minuto(s) e 9 segundo(s).
 
 
 Entrada	
 178615
+
 Saída
 2 dia(s), 1 hora(s), 36 minuto(s) e 55 segundo(s).
 
