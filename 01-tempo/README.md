@@ -1,19 +1,34 @@
-Gráfico
-ASCII art é uma técnica artística que usa os símbolos imprimíveis da tabela ASCII para compor ilustrações (Wikipedia).
-Neste trabalho você deve escrever um programa para um gráfico de freqüências na tela usando ASCII. Não é ASCII art, mas tem algum charme.
+Tempo, tempo, tempo...
+Trabalhar em uma fábrica de relógios não é fácil, ainda mais quando o seu chefe indica o tempo que falta para as suas férias em segundos (e não em dias, como uma pessoa normal).
 
-Entrada e saída
-O programa recebe como entrada um inteiro não negativo n e uma seqüência de n triplas (número,freqüência,caractere). Para cada tripla ele deve imprimir uma barra, produzindo um gráfico como no exemplo abaixo.
-Haverá pelo menos uma tripla na entrada, e todas as triplas são bem formadas. Na tripla, o número é positivo e menor que 10000 e a freqüência menor ou igual a 100 e maior ou igual a 0.
+Sabendo de suas novas habilidades como programador, os funcionários dessa fábrica pediram para você escrever um programa que recebe um valor inteiro N, que corresponde ao tempo de duração em segundos quem falta para as férias na fábrica, e "quebre" esse valor em dias, horas, minutos e segundos
 
-Exemplo
+A saída deve estar no formato: D dias, H horas, M minutos e S segundos.
 
-Para a entrada
-4
-(5,7,-) (7,17,+) (1001,3,-) (2,19,+)
+Especificação de entrada e saída
 
-o programa deve imprimir
-   5 |------- 7
-   7 |+++++++++++++++++ 17
-1001 |--- 3
-   2 |+++++++++++++++++++ 19
+Entrada
+A primeira linha contém um número inteiro N (0 ≤ N ≤ 10000000).
+
+Saída
+Seu programa deve produzir uma única linha na saída, o valor convertido em D dia(s), H hora(s), M minuto(s) e S segundo(s).
+
+Exemplos
+
+Entrada	
+361
+Saída
+0 dia(s), 0 hora(s), 6 minuto(s) e 1 segundo(s).
+
+
+Entrada	
+7869
+Saída
+0 dia(s), 2 hora(s), 11 minuto(s) e 9 segundo(s).
+
+
+Entrada	
+178615
+Saída
+2 dia(s), 1 hora(s), 36 minuto(s) e 55 segundo(s).
+
