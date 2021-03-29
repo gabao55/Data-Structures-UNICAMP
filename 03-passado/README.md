@@ -1,6 +1,6 @@
 <h1 align="center">Tempo</h1>
 
-<h2>de volta para o passado</h1>
+<h2>De volta para o passado</h1>
 
 <p>
 Depois de vários anos de pesquisas, seu velho amigo Doutor Lloyd
