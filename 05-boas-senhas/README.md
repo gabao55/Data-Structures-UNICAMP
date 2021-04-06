@@ -1,5 +1,5 @@
 
-<h1>Boas senhas</h1>
+<h1 align="center">Boas senhas</h1>
 
 <p>
 Vários sistemas de software têm uma verificação da qualidade das
