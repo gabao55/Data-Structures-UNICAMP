@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0039)https://bug.ic.unicamp.br/cgi/sqtpm.cgi -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>sqtpm</title>
+<link href="https://bug.ic.unicamp.br/cgi/icon.png" rel="icon" type="image/png">
+<link rel="stylesheet" type="text/css" href="./Problem_files/sqtpm.css">
+</head>
+<body class="vsc-initialized">
+<div id="wrapper"><div id="sidebar"><h1>sqtpm</h1><p style="margin-top:-15px"><small>[gsr]</small></p><a href="javascript:;" onclick="window.history.go(-1); return false;">voltar</a></div><div id="content"><form method="post" action="https://bug.ic.unicamp.br/cgi/sqtpm.cgi" enctype="multipart/form-data" name="sqtpm"><script type="text/javascript" src="./Problem_files/sqtpm.js.download"></script><input type="hidden" name="action"><input type="hidden" name="arg1"><input type="hidden" name="arg2"><input type="hidden" name="arg3"><b>Trabalho:</b> 05-boas-senhas<table><tbody><tr><td style="vertical-align:top">Linguagens: C<br>Data de abertura: 2021/04/01 14:00:00<br>Data limite para envio: 2021/04/08 18:00:00<br>Número máximo de envios: 20<p><b>Último envio:</b> <a href="javascript:;" onclick="wrap(&#39;rep&#39;,&#39;05-boas-senhas&#39;);">100%</a> em 2021/04/04 14:20:13<br>Envios: 4</p></td></tr></tbody></table><input type="hidden" name="submassign" value="05-boas-senhas"><p><b>Enviar:</b></p><div class="f95"><table cellspacing="0" border="0"><tbody><tr> <td>Linguagem:&nbsp;&nbsp;<select name="language">
+<option value="C">C</option>
+</select></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>Arquivos:&nbsp;&nbsp;<input type="file" name="source" multiple=""></td><td><input type="submit" class="button" name="subm" value="Enviar" onclick="javascript:wrap(&#39;sub&#39;)"></td></tr></tbody></table></div><p></p><p></p><hr><style>
+.testcase, .testcase th, .testcase td {
+  border: 1px solid black;
+  background: #F0F0F0;
+  border-collapse: collapse;
+  vertical-align: top;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.testcase td {
+  padding: 6px;
+  width: 350px;
+  color: black;
+}
+</style>
+
+<h1>Boas senhas</h1>
+
+<p>
+Vários sistemas de software têm uma verificação da qualidade das
+senhas que um usuário pode escolher.  Alguns exigem que certos grupos
+de caracteres façam parte da senha e que a senha tenha um tamanho
+mínimo.  Outros verificam até se a senha é formada por palavras comuns
+da língua ou já foram usadas antes.
+
+
+</p><p>
+Vamos ser pouco exigentes e dizer que uma senha é boa se
+</p><ul>
+  <li>
+tem pelo menos 8 caracteres,
+</li><li>
+tem pelo menos uma vogal,
+</li><li>
+tem pelo menos um dígito,
+</li><li>
+tem pelo menos uma letra maiúscula e uma minúscula,
+</li><li>
+não tem 3 ou mais vogais consecutivas e
+</li><li>
+tem 3 ou mais consoantes consecutivas.
+</li></ul>
+
+<p>
+Escreva um programa para verificar se senhas são ou não boas.  
+
+
+</p><h3>Entrada</h3>
+
+A entrada tem uma ou mais senhas, uma por linha, seguidas da palavra
+'fim' na última linha, que indica o fim da entrada.  Cada linha tem
+pelo menos 1 e no máximo 20 letras ou dígitos.
+
+<h3>Saída</h3>
+
+Para cada senha, a saída deve ter uma linha indicando se a senha é ou
+não aceitável, como ilustrado abaixo.
+
+
+<p>&nbsp;
+  
+</p><p>
+</p><table class="testcase">
+<tbody><tr><th>Entrada</th><th>Saída</th></tr>
+<tr><td>
+<pre>senha1
+9Ee468KL
+1TbiAM7H
+bA3JxxFV
+CjKsDr2AT
+fim
+</pre>
+</td><td>
+<pre>[senha1] e' inaceitavel.
+[9Ee468KL] e' inaceitavel.
+[1TbiAM7H] e' inaceitavel.
+[bA3JxxFV] e' aceitavel.
+[CjKsDr2AT] e' aceitavel.
+</pre>
+</td></tr>
+</tbody></table>
+
+
+<h3>Sugestões</h3>
+
+<ul>
+<li>
+Definir funções que testam condições de um caractere (se é vogal, se é
+dígito, etc) ou que testam condições de uma cadeia (se tem vogal, se
+tem 3 vogais consecutivas, etc.) pode ajudar a organizar sua solução e
+torná-la mais simples.
+
+</li><li>
+Funções como as mencionadas acima não são obrigatórias, a solução é
+sua.  Se usar funções, dê preferência a funções que fazem apenas uma
+tarefa bem definida.
+</li></ul>
+
+
+<h3>Sobre organização do código e comentários</h3>
+
+<ul>
+<li>
+Faça um programa organizado, bem indentado e que seja fácil de ler.
+</li><li>
+Adicione comentários que vão ser úteis para entender o programa se
+você for relê-lo daqui a alguns anos: comentar cada linha vai ser
+redundante; documentar blocos de código e a estratégia usada na
+solução vai ser muito útil.
+</li></ul>
+<hr></form></div></div>
+
+</body></html>
