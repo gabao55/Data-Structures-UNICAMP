@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0039)https://bug.ic.unicamp.br/cgi/sqtpm.cgi -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>sqtpm</title>
+<link href="https://bug.ic.unicamp.br/cgi/icon.png" rel="icon" type="image/png">
+<link rel="stylesheet" type="text/css" href="./sqtpm_files/sqtpm.css">
+</head>
+<body class="vsc-initialized">
+<div id="wrapper"><div id="sidebar"><h1>sqtpm</h1><p style="margin-top:-15px"><small>[gsr]</small></p><a href="javascript:;" onclick="window.history.go(-1); return false;">voltar</a></div><div id="content"><form method="post" action="https://bug.ic.unicamp.br/cgi/sqtpm.cgi" enctype="multipart/form-data" name="sqtpm"><script type="text/javascript" src="./sqtpm_files/sqtpm.js.download"></script><input type="hidden" name="action"><input type="hidden" name="arg1"><input type="hidden" name="arg2"><input type="hidden" name="arg3"><b>Trabalho:</b> 06-et-bilu<table><tbody><tr><td style="vertical-align:top">Linguagens: C<br>Arquivos a enviar: entre 1 e 10<br>Data de abertura: 2021/04/08 12:00:00<br>Data limite para envio: 2021/04/15 18:00:00 (encerrado)<font color="MediumBlue"><br>Aberto para envio que não substitui o último envio no prazo</font><br>Número máximo de envios: 20<p><b>Último envio:</b> <a href="javascript:;" onclick="wrap(&#39;rep&#39;,&#39;06-et-bilu&#39;);">100% em 2021/04/09 17:00:28</a><br>Envios: 2</p></td></tr></tbody></table><input type="hidden" name="submassign" value="06-et-bilu"><p><b>Enviar:</b></p><div class="f95"><table cellspacing="0" border="0"><tbody><tr> <td>Linguagem:&nbsp;&nbsp;<select name="language">
+<option value="C">C</option>
+</select></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>Arquivos:&nbsp;&nbsp;<input type="file" name="source" multiple=""></td><td><input type="submit" class="button" name="subm" value="Enviar" onclick="javascript:wrap(&#39;sub&#39;)"></td></tr></tbody></table></div><p></p><p></p><hr><style>
+.testcase, .testcase th, .testcase td {
+  border: 1px solid black;
+  background: #F0F0F0;
+  border-collapse: collapse;
+  vertical-align: top;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.testcase td {
+  padding: 6px;
+  width: 350px;
+  color: black;
+}
+</style>
+
+<h1>E.T. Bilu</h1>
+
+<p>
+E.T. Bilu caiu na terra por volta de 1996 após uma batalha espacial
+contra a raça de alienígenas Kruskal. Para contactar os cientistas
+terrestres ele precisava codificar as mensagens para que os Kruskals
+não o descobrissem. Após alguns meses de estudo, os cientistas
+descobriram que as mensagens de Bilu possuíam um caractere mais
+recorrente, sendo que esse caractere não muda da mensagem codificada
+para a decodificada.  Além disso eles descobriram que a mensagem foi
+codificada usando uma variação da Cifra de César, em que o valor do
+caractere mais recorrente é a chave.  Por sorte, esses cientistas te
+contrataram para ajuda-los com um algoritmo pra decifrar as mensagens
+codificadas.
+
+</p><p>
+A codificação usando a cifra de César faz um deslocamento fixo dos
+símbolos do alfabeto.  Para o alfabeto das letras minúsculas se
+fizermos um deslocamento de 7 símbolos teremos a seguinte codificação:
+
+</p><pre>a-&gt;h, b-&gt;i, c-&gt;j, ..., s-&gt;z, t-&gt;a, ..., z-&gt;g
+</pre>
+
+<p>
+Na codificação do Bilu, o símbolo mais recorrente na mensagem fica
+fixo e o 'a' é mapeado no símbolo que sucede o mais recorrente.  Por
+exemplo, se o símbolo mais recorrente na mensagem é 'e', então temos o
+mapeamento:
+
+</p><pre>a-&gt;f, b-&gt;g, c-&gt;h, d-&gt;i, e-&gt;e, f-&gt;j, g-&gt;k, ..., z-&gt;d
+</pre>
+
+<p>
+Quando o símbolo mais recorrente é o 'a', o 'b' não é mapeado no
+próprio 'b' e sim no 'c'. A codificação fica assim:
+
+</p><pre>a-&gt;a, b-&gt;c, c-&gt;d, ..., y-&gt;z, z-&gt;b
+</pre>
+
+<p>
+Quando o símbolo mais recorrente é o 'z', o 'a' não é mapeado no
+próprio 'a' e sim no 'b'.  A codificação fica assim:
+
+</p><pre>a-&gt;b, b-&gt;c, c-&gt;d, ..., y-&gt;a, z-&gt;z
+</pre>
+
+<p>
+Além disso, caso haja empate na quantidade de vezes que o caractere
+mais recorrente ocorreu, o menor caractere alfabeticamente deve ser
+usado como chave. 
+
+
+</p><h3>Entrada</h3>
+A primeira e única linha da entrada para o programa contém a mensagem
+codificada: uma string com até 10 mil letras minúsculas e espaços.  Os
+espaços não foram codificados e não deverão ser decodificados.
+
+
+
+<h3>Saída</h3>
+A saída deve ter uma única linha com a mensagem decodificada.
+
+
+<h3>Exemplos</h3>
+
+<p>
+</p><table class="testcase">
+<tbody><tr><th>Entrada</th><th>Saída</th></tr>
+<tr><td>
+<pre>fu njoia data
+</pre>
+</td><td>
+<pre>et minha casa
+</pre>
+</td></tr>
+</tbody></table>
+
+<br>
+<table class="testcase">
+<tbody><tr><th>Entrada</th><th>Saída</th></tr>
+<tr><td>
+<pre>gywuyeq hsrlehmqerxs
+</pre>
+</td><td>
+<pre>busquem conhecimento
+</pre>
+</td></tr>
+</tbody></table>
+
+
+<h3>Sobre organização do código e comentários</h3>
+
+<ul>
+<li>
+Faça um programa organizado, bem indentado e que seja fácil de ler.
+</li><li>
+Adicione comentários que vão ser úteis para entender o programa se
+você for relê-lo daqui a alguns anos: comentar cada linha vai ser
+redundante; documentar blocos de código e a estratégia usada na
+solução vai ser muito útil.
+</li></ul>
+
+
+
+<p>&nbsp;
+</p><p>
+<small>
+Por Lucas Pansani Ramos.
+</small>
+</p>
+<hr></form></div></div>
+
+</body></html>
