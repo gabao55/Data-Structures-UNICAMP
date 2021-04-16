@@ -1,4 +1,4 @@
-<h1 style="text-align:center">E.T. Bilu</h1>
+<h1 align=center>E.T. Bilu</h1>
 
 <p>
 E.T. Bilu caiu na terra por volta de 1996 após uma batalha espacial
