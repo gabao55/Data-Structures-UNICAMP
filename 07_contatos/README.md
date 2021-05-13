@@ -1,3 +1,4 @@
+<h1 align="center">Contatos</h1>
 
 Neste trabalho você deve fazer um programa que mantém uma coleção de
 contatos de pessoas.
