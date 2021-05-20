@@ -1,5 +1,5 @@
 
-<h1>Seqüência circular em vetor dinâmico</h1>
+<h1 : align="center">Seqüência circular em vetor dinâmico</h1>
 
 Vamos dizer que um conjunto de dados forma uma <i>seqüência</i> se
 eles são consecutivos e se a ordem relativa entre eles é importante.
