@@ -1,5 +1,5 @@
 
-<h1>Operações com listas</h1>
+<h1 align: "center">Operações com listas</h1>
 
 <p>
 Uma das maneiras possíveis de implementar um conjunto é como uma lista
