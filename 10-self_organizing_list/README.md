@@ -1,7 +1,4 @@
-<h1 style: "text-align=center"></h1>
-
-<body class="vsc-initialized">
-<div id="wrapper"><div id="sidebar"><h1>sqtpm</h1><p style="margin-top:-15px"><small>[gsr]</small></p><a href="javascript:;" onclick="window.history.go(-1); return false;">voltar</a></div><div id="content"><form method="post" action="https://bug.ic.unicamp.br/cgi/sqtpm.cgi" enctype="multipart/form-data" name="sqtpm"><script type="text/javascript" src="./sqtpm_files/sqtpm.js.download"></script><input type="hidden" name="action"><input type="hidden" name="arg1"><input type="hidden" name="arg2"><input type="hidden" name="arg3"><b>Trabalho:</b> 10-auto<table><tbody><tr><td style="vertical-align:top">Data de abertura: 07/05/2021 23:00:00<br>Data limite para envio: 20/05/2021 18:00:00 (encerrado)<br>Arquivos a enviar: entre 1 e 3<p><b>Último envio:</b> <a href="javascript:;" onclick="wrap(&#39;rep&#39;,&#39;10-auto&#39;);">100% em 14/05/2021 10:53:55</a> <br>Envios: 6</p></td></tr></tbody></table><p></p><hr><h1>Lista auto-organizável</h1>
+<h1 style="text-align: center"></h1>
 
 <p>
 Em uma lista encadeada cada nó tem um registro com os dados e um ou
