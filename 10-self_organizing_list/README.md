@@ -1,4 +1,4 @@
-<h1 style="align-text: center">Lista auto-organizável</h1>
+<h1 style="text-align: center">Lista auto-organizável</h1>
 
 <p>
 Em uma lista encadeada cada nó tem um registro com os dados e um ou
