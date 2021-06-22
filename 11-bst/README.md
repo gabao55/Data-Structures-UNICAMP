@@ -1,5 +1,4 @@
-<body class="vsc-initialized">
-<div id="wrapper"><div id="sidebar"><h1>sqtpm</h1><p style="margin-top:-15px"><small>[gsr]</small></p><a href="javascript:;" onclick="window.history.go(-1); return false;">voltar</a></div><div id="content"><form method="post" action="https://bug.ic.unicamp.br/cgi/sqtpm.cgi" enctype="multipart/form-data" name="sqtpm"><script type="text/javascript" src="./sqtpm_files/sqtpm.js.download"></script><input type="hidden" name="action"><input type="hidden" name="arg1"><input type="hidden" name="arg2"><input type="hidden" name="arg3"><b>Trabalho:</b> 11-bst<table><tbody><tr><td style="vertical-align:top">Data de abertura: 21/05/2021 13:00:00<br>Data limite para envio: 31/05/2021 18:00:00 (encerrado)<br>Arquivos a enviar: entre 1 e 3<p><b>Último envio:</b> <a href="javascript:;" onclick="wrap(&#39;rep&#39;,&#39;11-bst&#39;);">100% em 24/05/2021 20:47:09</a> <br>Envios: 18</p></td></tr></tbody></table><p></p><hr><h1>Árvore binária de busca</h1>
+<h1 text-align: "center">Árvore binária de busca</h1>
 
 Escreva um programa que lê comandos da entrada e manipula dados
 armazenando-os em uma árvore de busca binária para inteiros.  Os
