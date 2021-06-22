@@ -1,47 +1,40 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<!-- saved from url=(0039)https://bug.ic.unicamp.br/cgi/sqtpm.cgi -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>sqtpm</title>
-<link href="https://bug.ic.unicamp.br/cgi/icon.png" rel="icon" type="image/png">
-<link rel="stylesheet" type="text/css" href="./sqtpm_files/sqtpm.css">
-</head>
-<body class="vsc-initialized">
-<div id="wrapper"><div id="sidebar"><h1>sqtpm</h1><p style="margin-top:-15px"><small>[gsr]</small></p><a href="javascript:;" onclick="window.history.go(-1); return false;">voltar</a></div><div id="content"><form method="post" action="https://bug.ic.unicamp.br/cgi/sqtpm.cgi" enctype="multipart/form-data" name="sqtpm"><script type="text/javascript" src="./sqtpm_files/sqtpm.js.download"></script><input type="hidden" name="action"><input type="hidden" name="arg1"><input type="hidden" name="arg2"><input type="hidden" name="arg3"><b>Trabalho:</b> 11-bst<table><tbody><tr><td style="vertical-align:top">Data de abertura: 21/05/2021 13:00:00<br>Data limite para envio: 31/05/2021 18:00:00 (encerrado)<br>Arquivos a enviar: entre 1 e 3<p><b>Último envio:</b> <a href="javascript:;" onclick="wrap(&#39;rep&#39;,&#39;11-bst&#39;);">100% em 24/05/2021 20:47:09</a> <br>Envios: 18</p></td></tr></tbody></table><p></p><hr><h1>Árvore binária de busca</h1>
+<h1 text-align: "center">Ãrvore binÃ¡ria de busca</h1>
 
-Escreva um programa que lê comandos da entrada e manipula dados
-armazenando-os em uma árvore de busca binária para inteiros.  Os
-comandos são da seguinte forma:
+Escreva um programa que lÃª comandos da entrada e manipula dados
+armazenando-os em uma Ã¡rvore de busca binÃ¡ria para inteiros.  Os
+comandos sÃ£o da seguinte forma:
 
 <ul>
 <li>criar
 
 <p>
-Ao ler o comando criar o programa deve criar uma árvore binária de
-busca vazia.  Se já houver uma árvore sendo processada, todos os nós
+Ao ler o comando criar o programa deve criar uma Ã¡rvore binÃ¡ria de
+busca vazia.  Se jÃ¡ houver uma Ã¡rvore sendo processada, todos os nÃ³s
 nela devem ser removidos.
   
 </p></li><li>inserir x
 
 <p>
-Ao ler o comando inserir x, onde x é um inteiro, o programa deve
-inserir a chave x na árvore de busca binária.  A árvore não deve ter
-elementos repetidos, então se x já pertence à árvore ele não deve ser
-inserido de novo.  Se não houver memória para essa operação, o
+Ao ler o comando inserir x, onde x Ã© um inteiro, o programa deve
+inserir a chave x na Ã¡rvore de busca binÃ¡ria.  A Ã¡rvore nÃ£o deve ter
+elementos repetidos, entÃ£o se x jÃ¡ pertence Ã  Ã¡rvore ele nÃ£o deve ser
+inserido de novo.  Se nÃ£o houver memÃ³ria para essa operaÃ§Ã£o, o
 programa deve imprimir "memoria insuficiente" em uma linha e deve
-continuar a execução.
+continuar a execuÃ§Ã£o.
 
 </p></li><li>remover x
 
 <p>
-Ao ler o comando remover x, onde x é um inteiro, o programa deve
-remover a chave x da árvore binária de busca.  Se x não estiver na
-árvore o programa não deve fazer nada.  O programa deve usar o
-sucessor de um nó para a substituição de um nó que tenha dois filhos.
+Ao ler o comando remover x, onde x Ã© um inteiro, o programa deve
+remover a chave x da Ã¡rvore binÃ¡ria de busca.  Se x nÃ£o estiver na
+Ã¡rvore o programa nÃ£o deve fazer nada.  O programa deve usar o
+sucessor de um nÃ³ para a substituiÃ§Ã£o de um nÃ³ que tenha dois filhos.
 
 </p></li><li>buscar x
 
 <p>
-Ao ler o comando buscar x, onde x é um inteiro, o programa deve buscar
-a chave na árvore e imprimir "x esta na arvore" ou "x nao esta na
+Ao ler o comando buscar x, onde x Ã© um inteiro, o programa deve buscar
+a chave na Ã¡rvore e imprimir "x esta na arvore" ou "x nao esta na
 arvore" em uma linha.
 
 
@@ -52,8 +45,8 @@ arvore" em uma linha.
 <p>
 Ao ler um desses comandos o programa deve imprimir as chaves na ordem
 em que forem visitadas por um percurso em profundidade em pre-ordem,
-em-ordem ou em pós-ordem.  As chaves devem ser impressas seguidas por
-um espaço, em uma única linha.  Se a árvore estiver vazia então o
+em-ordem ou em pÃ³s-ordem.  As chaves devem ser impressas seguidas por
+um espaÃ§o, em uma Ãºnica linha.  Se a Ã¡rvore estiver vazia entÃ£o o
 programa deve imprimir "arvore vazia" em uma linha.
 
 
@@ -61,9 +54,9 @@ programa deve imprimir "arvore vazia" em uma linha.
 <br>predecessor x  
 
 <p>
-Ao ler um desses comandos, onde x é um inteiro, o programa deve
+Ao ler um desses comandos, onde x Ã© um inteiro, o programa deve
 imprimir "sucessor de x: z" ou "precessor de x: z", respectivamente.
-Se x não estiver na árvore ou se x não tiver sucessor ou predecessor o
+Se x nÃ£o estiver na Ã¡rvore ou se x nÃ£o tiver sucessor ou predecessor o
 programa deve imprimir "nao ha sucessor de x" ou "nao ha predecessor
 de x" em uma linha.
 
@@ -72,7 +65,7 @@ de x" em uma linha.
 terminar
 
 <p>
-Ao ler esse comando o programa deve desalocar a árvore e todos os nós
+Ao ler esse comando o programa deve desalocar a Ã¡rvore e todos os nÃ³s
 dela e terminar.
 </p></li></ul>
 
@@ -103,7 +96,7 @@ terminar
 </pre>
 
 <p>
-Saída:
+SaÃ­da:
 
 </p><pre>pre-ordem: 30 10 20 50 40 
 em-ordem: 10 20 30 40 50 
@@ -121,30 +114,30 @@ arvore vazia
 <h3>Requisitos</h3>
 
 <ul>
-  <li>O programa deve usar uma árvore binária de busca na representação explícita.
-  </li><li>Não pode haver qualquer variável global.  Uma variável é global
-  se estiver declarada fora de alguma função (variáveis declaradas
-  dentro da main não são globais, são locais à função main).
+  <li>O programa deve usar uma Ã¡rvore binÃ¡ria de busca na representaÃ§Ã£o explÃ­cita.
+  </li><li>NÃ£o pode haver qualquer variÃ¡vel global.  Uma variÃ¡vel Ã© global
+  se estiver declarada fora de alguma funÃ§Ã£o (variÃ¡veis declaradas
+  dentro da main nÃ£o sÃ£o globais, sÃ£o locais Ã  funÃ§Ã£o main).
 </li></ul>
 
 
-<h3>Observações</h3>
+<h3>ObservaÃ§Ãµes</h3>
 <ul>
-<li>Vai ser mais fácil organizar seu programa se cada operação for
-realizada por uma função e vice-versa (cada função faz apenas uma
-operação).
+<li>Vai ser mais fÃ¡cil organizar seu programa se cada operaÃ§Ã£o for
+realizada por uma funÃ§Ã£o e vice-versa (cada funÃ§Ã£o faz apenas uma
+operaÃ§Ã£o).
 </li></ul> 
 
-<h3>Sobre organização do código e comentários</h3>
+<h3>Sobre organizaÃ§Ã£o do cÃ³digo e comentÃ¡rios</h3>
 
 <ul>
 <li>
-Faça um programa organizado, bem indentado e que seja fácil de ler.
+FaÃ§a um programa organizado, bem indentado e que seja fÃ¡cil de ler.
 </li><li>
-Adicione comentários que vão ser úteis para entender o programa se
-você for relê-lo daqui a alguns anos: comentar cada linha vai ser
-redundante; documentar blocos de código e a estratégia usada na
-solução vai ser muito útil.
+Adicione comentÃ¡rios que vÃ£o ser Ãºteis para entender o programa se
+vocÃª for relÃª-lo daqui a alguns anos: comentar cada linha vai ser
+redundante; documentar blocos de cÃ³digo e a estratÃ©gia usada na
+soluÃ§Ã£o vai ser muito Ãºtil.
 </li></ul>
 
 <hr></form></div></div>
