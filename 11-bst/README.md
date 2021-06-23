@@ -1,4 +1,4 @@
-<h1 text-align: "center">Árvore binária de busca</h1>
+<h1 align="center">Árvore binária de busca</h1>
 
 Escreva um programa que lê comandos da entrada e manipula dados
 armazenando-os em uma árvore de busca binária para inteiros.  Os
