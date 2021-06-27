@@ -18,4 +18,5 @@ int main() {
     // Printing the output on the correct form:
     printf("%hd dia(s), %hd hora(s), %hd minuto(s) e %d segundo(s).\n", days, hours, minutes, seconds);
 
+    return 1;
 }
