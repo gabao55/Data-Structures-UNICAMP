@@ -43,5 +43,5 @@ int main(void)
         printf(" %d\n", frequencies[i]);
     }
 
-    return 0;
+    return 1;
 }
