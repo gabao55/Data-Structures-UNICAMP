@@ -1,4 +1,4 @@
-<h1>Hashing de cadeias</h1>
+<h1 align="center">Hashing de cadeias</h1>
 
 <p>
 Este trabalho consiste em implementar uma tabela de hashing para
