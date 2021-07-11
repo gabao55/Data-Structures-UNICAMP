@@ -83,5 +83,5 @@ int main(void) {
     li_free(A);
     li_free(B);
 
-    return 0;
+    return 1;
 }
