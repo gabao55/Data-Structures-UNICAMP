@@ -1,4 +1,4 @@
-<h1>Heap de mínimo</h1>
+<h1 align="center">Heap de mínimo</h1>
 
 Em várias aplicações de uma fila de prioridades as operações
 essenciais são inserir uma chave, remover a chave mínima e reduzir o
