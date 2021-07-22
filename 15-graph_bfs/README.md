@@ -1,4 +1,4 @@
-<h1 align:"center">Busca em largura</h1>
+<h1 align="center">Busca em largura</h1>
 
 Este trabalho consiste em implementar uma busca em largura em um grafo
 não-orientado.
